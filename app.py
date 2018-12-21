@@ -23,7 +23,7 @@ from flask_login import LoginManager, UserMixin, login_user, login_required, log
 app = Flask(__name__)
 # --
 app.config['SECRET_KEY'] = 'thisissupposedtobeVsecret'
-app.config['SQLALCHEMY_DATABASE_URI']='sqlite:////home/niloy/Documents/AI/vN00BAPIv/database.db' 
+app.config['SQLALCHEMY_DATABASE_URI']='sqlite:////home/niloy/N00Bapi/database.db' 
 Bootstrap(app)
 db = SQLAlchemy(app)
 
@@ -140,4 +140,4 @@ def login():
 
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run(debug=True,host='192.168.2.56',port=5000)
