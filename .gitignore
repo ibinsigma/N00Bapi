@@ -6,3 +6,6 @@ models/
 node_modules
 .sass-cache
 bower_components
+bin/
+*.whl
+ckpt/
