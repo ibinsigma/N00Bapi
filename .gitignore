@@ -1,0 +1,8 @@
+*.pyc
+__pycache__/
+cfg/
+models/
+*.py.swp
+node_modules
+.sass-cache
+bower_components
